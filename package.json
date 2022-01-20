@@ -1,0 +1,25 @@
+{
+  "name": "@easy-payment/stripe",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InstigateMobile/easy-payment-stripe"
+  },
+  "keywords": [
+    "payment",
+    "gateway",
+    "easy-payment",
+    "stripe"
+  ],
+  "author": "Instigate Mobile CJCS",
+  "license": "MIT",
+  "dependencies": {
+    "@easy-payment/base": "git+https://git@github.com/InstigateMobile/easy-payment-base.git",
+    "stripe": "^8.197.0"
+  }
+}
