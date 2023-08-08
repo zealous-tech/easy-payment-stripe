@@ -20,7 +20,7 @@
   "author": "zealous",
   "license": "MIT",
   "dependencies": {
-    "@easy-payment/base": "git+https://git@github.com:zealous-tech/easy-payment-base.git#b8d919899af240cea9fa992a63e4da8e304568b4",
+    "@easy-payment/base": "git+https://git@github.com:zealous-tech/easy-payment-base.git#e16cd79a3b2970b6229b519b940554f875351a6a",
     "stripe": "^8.197.0"
   }
 }
