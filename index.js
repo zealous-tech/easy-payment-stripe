@@ -1,7 +1,7 @@
-const STRIPE = require('./lib/stripe.js');
-const assert = require('assert');
+import STRIPE from './lib/stripe.js';
+import assert from 'assert';
 
-module.exports = {
+export default {
   gateway: function (options) {
     assert(options.SECRET_KEY, 'SECRET_KEY is mandatory');
     options = options || {};
